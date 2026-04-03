@@ -2,8 +2,6 @@ import { MetadataRoute } from "next";
 import { getAllProducts, getCategories } from "@/lib/products";
 import { towns } from "@/lib/towns";
 
-export const dynamic = "force-static";
-
 const BASE_URL = "https://my-signage.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
