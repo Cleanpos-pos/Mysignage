@@ -121,12 +121,6 @@ export default function RootLayout({
               >
                 Categories
               </Link>
-              <Link
-                href="/restaurants"
-                className="text-muted hover:text-foreground transition-colors"
-              >
-                Restaurants
-              </Link>
             </div>
           </nav>
         </header>
